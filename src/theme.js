@@ -4,6 +4,7 @@ import amber from 'material-ui/colors/amber'
 
 export default createMuiTheme({
   palette: {
-    primary: blueGrey
+    primary: blueGrey,
+    secondary: blueGrey
   }
 })
