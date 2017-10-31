@@ -1,0 +1,33 @@
+{
+  "name": "rpi-webtorrent-api",
+  "version": "1.0.0",
+  "description": "Api used by the rpi-webtorrent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herlon214/rpi-webtorrent.git"
+  },
+  "keywords": [
+    "raspberry",
+    "transmission",
+    "api"
+  ],
+  "author": "Herlon Aguiar herlon214@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herlon214/rpi-webtorrent/issues"
+  },
+  "homepage": "https://github.com/herlon214/rpi-webtorrent#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "extend": "^3.0.1",
+    "hapi-async-handler": "^1.0.3",
+    "request": "^2.83.0"
+  }
+}
